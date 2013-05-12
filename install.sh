@@ -11,4 +11,8 @@ ln -s $cwd/XTerm XTerm
 ln -s $cwd/.gitignore .gitignore
 cd $HOME/.config/ipython/profile_default/
 ln -s $cwd/ipython_config.py ipython_config.py
+cd $HOME/.config/openbox
+ln -s $cwd/autostart.sh autostart.sh
+ln -s $cwd/menu.xml menu.xml
+ln -s $cwd/rc.xml rc.xml
 cd $cwd
