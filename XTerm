@@ -11,7 +11,8 @@
 !COLORS
 *borderColor: #343434
 *background:  #222222
-*foreground:  #dddddd
+!*foreground:  #dddddd
+*foreground:  #8ae234
 
 !black
 *color0:  #2e3436

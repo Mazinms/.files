@@ -3,8 +3,7 @@
 cwd=$PWD
 cd $HOME
 ln -s $cwd/.inputrc .inputrc
-ln -s $cwd/.bashrc .bashrc
-ln -s $cwd/.bashrc.tobit .bashrc.tobit
+ln -s $cwd/.zshrc .zshrc
 ln -s $cwd/.vimrc .vimrc
 ln -s $cwd/.tmux.conf .tmux.conf
 ln -s $cwd/XTerm XTerm

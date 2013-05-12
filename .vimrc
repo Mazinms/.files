@@ -1,5 +1,9 @@
+source $VIMRUNTIME/vimrc_example.vim
+colorscheme murphy
+
+"from tobit
 set nu "number lines
-source $VIMRUNTIME/colors/fu.vim "colour theme not scheme
+"source $VIMRUNTIME/colors/fu.vim "colour theme not scheme
 "source $VIMRUNTIME/colors/blazer.vim "colour theme not scheme
 set mouse=a "mouse functionality (like gvim!)
 set tw=0 "no wrapping text onto the next line
@@ -26,24 +30,24 @@ set smarttab
 "rebinds
 "==================================================
 "traverse ?buffer? instead of line
-nnoremap gk k
-nnoremap gj j
-nnoremap k gk
-nnoremap j gj
+"nnoremap gk k
+"nnoremap gj j
+"nnoremap k gk
+"nnoremap j gj
 
 "scroll buffer with better names
-nnoremap <C-J> <C-E>
-nnoremap <C-K> <C-Y>
-vnoremap <C-J> <C-E>
-vnoremap <C-K> <C-Y>
+"nnoremap <C-J> <C-E>
+"nnoremap <C-K> <C-Y>
+"vnoremap <C-J> <C-E>
+"vnoremap <C-K> <C-Y>
 
 "change tabs directionaly with ^h and ^l
 nnoremap <C-h> gT
 nnoremap <C-l> gt
 
 "stretch buffers
-nnoremap + <C-W>+
-nnoremap - <C-W>-
+"nnoremap + <C-W>+
+"nnoremap - <C-W>-
 
 "alternate keys for indenting/unindenting
 inoremap <S-Tab> <C-O><LT><LT>
@@ -53,7 +57,7 @@ vnoremap <Tab> >
 vnoremap <S-Tab> <LT>
 
 "rebind for space: prime real estate wasted by default
-nnoremap <Space> .
+nnoremap <Space> <ESC>
 
 "highlighting extra whitespace from max
 hi def link whiteSpaceError Error
