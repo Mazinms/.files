@@ -35,3 +35,6 @@ bindkey '^[[3~' delete-char
 
 #bind capslock to escape
 xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
+
+#add to PATH
+export PATH=$PATH:$HOME/local/bin
