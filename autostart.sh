@@ -1,4 +1,3 @@
 xterm &
-x-www-browser &
+firefox &
 xset b off
-xclock -digital -padding 0 -twentyfour &

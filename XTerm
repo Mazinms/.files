@@ -1,4 +1,5 @@
 *scrollbar: false
+*titlebar: off
 *faceName: inconsolata:size=12
 *locale: UTF-8
 *termName: xterm-256color

@@ -6,7 +6,7 @@ set nu "number lines
 "source $VIMRUNTIME/colors/fu.vim "colour theme not scheme
 "source $VIMRUNTIME/colors/blazer.vim "colour theme not scheme
 set mouse=a "mouse functionality (like gvim!)
-set tw=0 "no wrapping text onto the next line
+set tw=10000 "no wrapping text onto the next line
 set listchars+=precedes:<,extends:> "when nowrap is set-has carroots when a line extends beyond the edge
 syntax on "colours!
 set backspace=indent,eol,start "makes backspace work in Vim 7.3
@@ -63,3 +63,16 @@ nnoremap <Space> <ESC>
 hi def link whiteSpaceError Error
 autocmd Syntax * syn match whiteSpaceError "\(\S\| \)\@<=\t\+"
 autocmd Syntax * syn match whiteSpaceError "\s\+\%#\@<!$"
+
+"pathogen vim modules stuff
+execute pathogen#infect()
+
+"fugitive.vim
+nnoremap <C-g>c :Gcommit
+nnoremap <C-g>a :Gwrite
+
+"slimux
+"I have this built into the script, which is not
+"what the original has
+"nnoremap <C-c><C-c> :SlimuxREPLSendLine<CR>
+"vnoremap <C-c><C-c> :SlimuxREPLSendLine<CR>

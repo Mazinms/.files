@@ -42,7 +42,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Mire_v2_pink</name>
+    <name>Artwiz-boxed</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -178,7 +178,7 @@
   </dock>
   <keyboard>
     <chainQuitKey>C-g</chainQuitKey>
-    <keybind key="A-F1">
+    <keybind key="A-V">
       <action name="ShowMenu">
         <menu>root-menu</menu>
       </action>
@@ -282,7 +282,7 @@
     </keybind>
     <!-- Keybindings for window switching -->
     <keybind key="A-Tab">
-      <action name="ShowMenu">
+      <action name="NextWindow">
         <menu>client-list-menu</menu>
         <finalactions>
           <action name="Focus"/>
@@ -422,7 +422,7 @@
         <action name="Move"/>
       </mousebind>
       <mousebind button="Left" action="DoubleClick">
-        <action name="ToggleMaximize"/>
+        <action xmlns="http://openbox.org/3.4/rc" name="ToggleMaximize"/>
       </mousebind>
       <mousebind button="Up" action="Click">
         <action name="if">
@@ -793,5 +793,8 @@
 
   # end of the example
 -->
+    <application name="xterm">
+        <decor>no</decor>
+    </application>
   </applications>
 </openbox_config>
