@@ -65,7 +65,7 @@ autocmd Syntax * syn match whiteSpaceError "\(\S\| \)\@<=\t\+"
 autocmd Syntax * syn match whiteSpaceError "\s\+\%#\@<!$"
 
 "pathogen vim modules stuff
-execute pathogen#infect()
+"execute pathogen#infect()
 
 "fugitive.vim
 nnoremap <C-g>c :Gcommit

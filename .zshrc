@@ -19,6 +19,7 @@ alias lrt="ls -lrt"
 alias v="vim"
 alias l="less"
 alias pacman="sudo pacman"
+alias sudo='sudo '
 
 #set up nice left and right prompt
 export PROMPT=">"
@@ -32,6 +33,9 @@ bindkey '^[[B' down-line-or-search
 bindkey '^[[H' beginning-of-line
 bindkey '^[[F' end-of-line
 bindkey '^[[3~' delete-char
+bindkey '[1~' beginning-of-line
+bindkey '[4~' end-of-line
+
 
 #bind capslock to escape
 xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
