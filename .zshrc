@@ -66,7 +66,7 @@ alias ll="ls -l"
 alias lrt="ls -lrt"
 alias v="vim"
 alias l="less"
-#alias pacman="sudo pacman"
+alias pacman="sudo pacman"
 alias sudo='sudo '
 
 #set up nice left and right prompt
