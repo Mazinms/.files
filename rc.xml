@@ -177,9 +177,15 @@
     <!-- 'Left', 'Middle', 'Right' -->
   </dock>
   <keyboard>
+    <!-- Keybinding to lock screen -->
+    <keybind key="C-A-L">
+        <action name="execute">
+            <execute>xscreensaver-command --lock</execute>
+        </action>
+    </keybind>
     <!-- Keybindings for positional window switching 
     <xi:include href="winswitch.xml"/> -->
-        <keybind key="A-Right">
+    <keybind key="A-Right">
         <action name="execute">
             <execute>/home/vanboxel/local/bin/winswitch.py r</execute>
         </action>

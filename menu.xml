@@ -56,5 +56,10 @@
 				<execute>sudo poweroff</execute>
 			</action>
 		</item>
+		<item label="Lock Screen">
+			<action name="Execute">
+				<execute>xscreensaver-command --lock</execute>
+			</action>
+		</item>
 	</menu>
 </openbox_menu>
