@@ -92,3 +92,6 @@ xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
 
 #add to PATH
 export PATH=$PATH:$HOME/local/bin
+
+#force software 3d rendering (for SFML)
+export LIBGL_ALWAYS_SOFTWARE=1
