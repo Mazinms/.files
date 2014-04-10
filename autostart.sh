@@ -11,3 +11,6 @@ xset b off
 
 #start the screensaver
 ( ( sleep 10 && /usr/bin/xscreensaver -no-splash -display :0.0 ) & )
+
+#start conky
+conky
