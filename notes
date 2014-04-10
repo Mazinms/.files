@@ -1,0 +1,29 @@
+Microphone issues
+-----------------
+* run amixer, notice that Internal Mic only has playback, no capture listed among capabilities.  don't know if anyone else has run into this, but I've seen a couple other instances of people with not working microphones under linux.
+* If I turn off the mic boost, then it does record!  madness!  probably don't need pulseaudio at all then
+
+Touchpad
+--------
+* Patch no longer works in the diff, the actual kernel must have changed too much
+* I can probably hack it if I figure out what I'm doing
+** download git repo of the kernel (hoo-boy)
+** copy modifications from the patch to this version
+** enjoy!
+** just need to change line numbers really, try 390 instead of 385
+** 449 -> 433
+*** derp, the file for c720 actually succeeded!
+** but I need the other files like patch 3074391
+*** looks like some lines got added in, should be easy fix,
+*** just change where it gets put in perhaps?
+*** 2nd hunk, line 233, now the kernel does 'probing' stuff that may muck with it.  Take a look at this more this weekend
+* or, see if chrubuntu put out a new patch set and use those
+
+Back to ChromeOS
+----------------
+* croagh = crouton + arch
+# save off these notes, ogre battle notes, and job notes
+# reinstall chromeos onto laptop
+# install croagh
+# fiddle with arch to be what I want
+# enjoy sweet sweet arch and chromeos at the same time

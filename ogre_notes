@@ -1,0 +1,22 @@
+grid
+----
+* change from float/pixel based position to a grid
+** some exchange rate between two, perhaps 10 pixel to a grid point
+** units can only be at center of grid
+*** for now, just round all positions to nearest grid point (round to nearest ten's digit)
+*** do for movement and target position.
+** movement is to adjacent grid point
+*** first, still straight lines, compute direction and move unit to nearest center of grid point (so faster to move on diagonal)
+*** later, shortest path
+** have every object store its location
+** have each town check if it's captured/held
+*** only need to check all spaces within radius ( say 5 or whatever)
+** translate all mouse clicks to nearest pixel position
+** don't let units overlap?? (allied units that is)
+
+bugs
+----
+
+battle
+------
+* have command line argument to step battle time (or battle display at all)
