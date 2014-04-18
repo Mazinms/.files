@@ -43,7 +43,9 @@ DISABLE_AUTO_UPDATE="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(gitfast git-extras archlinux encode64 pip ruby tmux vi-mode web-search)
 
-source $ZSH/oh-my-zsh.sh
+if [ -f $ZSH/oh-my-zsh.sh ]; then
+    source $ZSH/oh-my-zsh.sh
+fi
 
 # Customize to your needs
 # Lines configured by zsh-newuser-install
