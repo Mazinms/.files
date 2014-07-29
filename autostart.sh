@@ -4,10 +4,10 @@
 xterm &
 
 #start firefox browser
-firefox &
+#firefox &
 
 #I don't remember what this one does
 xset b off
 
 #start the screensaver
-( ( sleep 10 && /usr/bin/xscreensaver -no-splash -display :0.0 ) & )
+#( ( sleep 10 && /usr/bin/xscreensaver -no-splash -display :0.0 ) & )

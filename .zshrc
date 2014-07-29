@@ -90,7 +90,11 @@ bindkey '[4~' end-of-line
 export EDITOR='vim'
 
 #bind capslock to escape
-xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
 
+if [[ -z $DISPLAY ]]
+then
+else
+    xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
+fi
 #add to PATH
 export PATH=$PATH:$HOME/local/bin
