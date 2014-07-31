@@ -5,6 +5,7 @@ cd $HOME
 ln -s $cwd/.inputrc .inputrc
 ln -s $cwd/.zshrc .zshrc
 ln -s $cwd/.vimrc .vimrc
+ln -s $cwd/.xinitrc .xinitrc
 ln -s $cwd/.tmux.conf .tmux.conf
 ln -s $cwd/XTerm XTerm
 ln -s $cwd/.gitignore .gitignore
