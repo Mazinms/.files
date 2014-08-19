@@ -71,6 +71,9 @@ alias l="less"
 alias pacman="sudo pacman"
 alias sudo='sudo '
 
+# gurps
+alias gurps="$HOME/Downloads/gcs-4.0.1-linux/gcs"
+
 #set up nice left and right prompt
 #export PROMPT=">"
 #export RPROMPT=%d
