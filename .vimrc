@@ -66,6 +66,8 @@ autocmd Syntax * syn match whiteSpaceError "\s\+\%#\@<!$"
 
 "pathogen vim modules stuff
 execute pathogen#infect()
+syntax on
+filetype plugin indent on
 
 "fugitive.vim
 nnoremap <C-g>c :Gcommit

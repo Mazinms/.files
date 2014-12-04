@@ -1,6 +1,8 @@
 *scrollbar: false
 *titlebar: off
-*faceName: inconsolata:size=11
+*renderFont: false
+xterm*faceName: inconsolata-g:size=11
+xterm*font: 7x13
 *locale: UTF-8
 *termName: xterm-256color
 
