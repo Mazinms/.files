@@ -23,7 +23,7 @@
 		</item>
 		<item label="Steam">
 			<action name="Execute">
-				<execute>Steam</execute>
+				<execute>steam</execute>
 			</action>
 		</item>
 		<item label="Firefox">
