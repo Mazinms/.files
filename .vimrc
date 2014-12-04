@@ -65,7 +65,7 @@ autocmd Syntax * syn match whiteSpaceError "\(\S\| \)\@<=\t\+"
 autocmd Syntax * syn match whiteSpaceError "\s\+\%#\@<!$"
 
 "pathogen vim modules stuff
-"execute pathogen#infect()
+execute pathogen#infect()
 
 "fugitive.vim
 nnoremap <C-g>c :Gcommit
@@ -74,5 +74,7 @@ nnoremap <C-g>a :Gwrite
 "slimux
 "I have this built into the script, which is not
 "what the original has
-"nnoremap <C-c><C-c> :SlimuxREPLSendLine<CR>
-"vnoremap <C-c><C-c> :SlimuxREPLSendLine<CR>
+nnoremap <C-c><C-c> :SlimuxREPLSendLine<CR>
+vnoremap <C-c><C-c> :SlimuxREPLSendLine<CR>
+nnoremap <C-c><C-v> :SlimuxREPLConfigure<CR>
+
