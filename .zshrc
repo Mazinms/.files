@@ -104,4 +104,10 @@ else
 fi
 #add to PATH
 export PATH=$PATH:$HOME/local/bin
-export PATH=$PATH:$HOME/.gem/ruby/2.1.0/bin
+export PATH=$PATH:$HOME/.gem/ruby/2.2.0/bin
+
+# add to LD_LIBRARY_PATH because #STEAM BULLSHIT
+# maybe doesn't help
+# steam seems to work, hopefully don't need this slowness
+# still throws bullshit errors
+#export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib32:/usr/lib
