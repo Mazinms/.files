@@ -70,6 +70,7 @@ alias v="vim"
 alias l="less"
 alias pacman="sudo pacman"
 alias sudo='sudo '
+unalias gcs
 
 # gurps
 alias gurps="$HOME/Downloads/gcs-4.0.1-linux/gcs"
