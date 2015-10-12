@@ -80,3 +80,6 @@ nnoremap <C-c><C-c> :SlimuxREPLSendLine<CR>
 vnoremap <C-c><C-c> :SlimuxREPLSendLine<CR>
 nnoremap <C-c><C-v> :SlimuxREPLConfigure<CR>
 
+"paste formatted time
+nnoremap t "=strftime("%Y-%m-%d %H:%M:%S")<CR>P
+
