@@ -13,8 +13,8 @@ ln -s $cwd/.gitignore .gitignore
 install -d $HOME/.ipython/profile_default
 cd $HOME/.ipython/profile_default/
 ln -s $cwd/ipython_config.py ipython_config.py
-install -d $HOME/.config/openbox
-cd $HOME/.config/openbox
+#install -d $HOME/.config/openbox
+#cd $HOME/.config/openbox
 ln -s $cwd/autostart.sh autostart.sh
 ln -s $cwd/menu.xml menu.xml
 ln -s $cwd/rc.xml rc.xml
