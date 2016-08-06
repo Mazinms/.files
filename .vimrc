@@ -1,5 +1,9 @@
 source $VIMRUNTIME/vimrc_example.vim
 colorscheme murphy
+"colorscheme bleen
+"set background=light
+"set background=dark
+"hi Visual term=reverse cterm=reverse guibg=Grey
 
 "from tobit
 set nu "number lines

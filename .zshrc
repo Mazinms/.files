@@ -6,7 +6,8 @@ ZSH=/usr/share/oh-my-zsh/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 #ZSH_THEME="robbyrussell"
-ZSH_THEME="kardan"
+#ZSH_THEME="kardan"
+ZSH_THEME="supersimple"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -80,7 +81,7 @@ alias gitcrypt="$HOME/proj/git-encrypt/gitcrypt"
 
 #set up nice left and right prompt
 #export PROMPT=">"
-#export RPROMPT=%d
+export RPROMPT=%d
 
 #search through the history with up or down using first word
 bindkey '^[[A' up-line-or-search
