@@ -10,3 +10,10 @@ rm -f $HOME/.config/openbox/autostart.sh
 rm -f $HOME/.config/openbox/menu.xml
 rm -f $HOME/.config/openbox/rc.xml
 rm -f $HOME/.inputrc
+rm -f $HOME/.theanorc
+rm -f $HOME/.xinitrc
+rm -rf $HOME/.ipython
+rm -f $HOME/autostart.sh
+rm -f $HOME/menu.xml
+rm -f $HOME/rc.xml
+

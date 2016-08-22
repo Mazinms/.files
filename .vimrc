@@ -1,5 +1,5 @@
 source $VIMRUNTIME/vimrc_example.vim
-colorscheme murphy
+colorscheme zellner
 
 "from tobit
 set nu "number lines
@@ -21,6 +21,7 @@ set expandtab "no tab characters, spaces instead except with makefiles
 autocmd BufReadPost,FileReadPost,BufNewFile [Mm]ake{file,} setlocal noexpandtab
 
 "more tabs for my python style
+au BufRead,BufNewFile *.py set expandtab
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
