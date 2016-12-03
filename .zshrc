@@ -82,8 +82,8 @@ alias gitcrypt="$HOME/proj/git-encrypt/gitcrypt"
 #export RPROMPT=%d
 
 #search through the history with up or down using first word
-bindkey '^[[A' up-line-or-search
-bindkey '^[[B' down-line-or-search
+bindkey 'OA' history-beginning-search-backward
+bindkey 'OB' history-beginning-search-forward
 
 #fix terminal issues
 bindkey '^[[H' beginning-of-line
